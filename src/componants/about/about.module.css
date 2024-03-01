@@ -1,0 +1,47 @@
+.Aboute{
+    height: 700px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 70px;
+    background-color: rgb(25, 25, 25);
+    color: #FFFFFF;
+}
+
+.img{
+    background-image: url(../../../public/main-img.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 580px;
+    width: 400px;
+}
+
+.abouteMe{
+    max-width: 522px;
+}
+
+h2 span{
+    color: rgba(252, 32, 80, 0.988);
+}
+
+.abouteMe p{
+    font-size: 20px;
+    color: rgb(214, 162, 203);
+    line-height: 0.7cm;
+}
+
+.button{
+    border: 0;
+    background-color: rgba(252, 32, 80, 0.988);
+    color: #FFFFFF;
+    cursor: pointer;
+    padding: 10px 30px;
+    border-radius: 25px;
+    font-size: 20px;
+}
+
+.button:hover{
+    background-color: rgb(25, 25, 25);
+    border: 1px solid rgba(252, 32, 80, 0.988);
+}
